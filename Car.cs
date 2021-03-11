@@ -15,6 +15,7 @@ namespace cv5
         {
             MaxPassengers = 5;
             FuelTankVolume = 60;
+            Fuel = f;
 
             if (cp <= MaxPassengers)
             {

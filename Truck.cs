@@ -15,6 +15,7 @@ namespace cv5
         {
             MaxCargo = 1000;
             FuelTankVolume = 200;
+            Fuel = f;
 
             if (cc <= MaxCargo)
             {

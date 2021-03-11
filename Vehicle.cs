@@ -11,16 +11,9 @@ namespace cv5
         public enum FuelType { Petrol_fuel, Oil_fuel };
         protected int FuelTankVolume;
         protected double CurrentFuel;
-        private FuelType Fuel;
+        protected FuelType Fuel;
         Radio radio = new Radio();
-
-        public Vehicle(double cf, FuelType f)
-        { 
-            CurrentFuel = cf;
-            Fuel = f;
-        }
-
-        
+                
         public void AddFuel(FuelType ft, double value)
         {
             if (Fuel == ft)
