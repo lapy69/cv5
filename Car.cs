@@ -11,7 +11,7 @@ namespace cv5
         private int MaxPassengers;
         private int CurrentPassengers;
 
-        public Car(int cp, double cf, FuelType f) : base(cf, f)
+        public Car(int cp, double cf, FuelType f)
         {
             MaxPassengers = 5;
             FuelTankVolume = 60;

@@ -11,7 +11,7 @@ namespace cv5
         private int MaxCargo;
         private double CurrentCargo;
         
-        public Truck(double cc, double cf, FuelType f):base(cf, f)
+        public Truck(double cc, double cf, FuelType f)
         {
             MaxCargo = 1000;
             FuelTankVolume = 200;
