@@ -49,6 +49,11 @@ namespace cv5
             }
         }
 
+        public void ManualStation(double freq)
+        {
+                Frequency = freq;
+        }
+
         public override string ToString()
         {
             if (TurnedOn == true)

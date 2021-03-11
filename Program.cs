@@ -26,6 +26,8 @@ namespace cv5
             truck.NewItemInList(2, 101.1);
             truck.SetRadio(2);
             truck.DisplayRadio();
+            truck.SetRadioManually(106.5);
+            truck.DisplayRadio();
 
             Console.ReadLine();
         }

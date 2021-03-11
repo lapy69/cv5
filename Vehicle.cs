@@ -48,6 +48,11 @@ namespace cv5
             radio.ChooseStation(cislo);
         }
 
+        public void SetRadioManually(double freq)
+        {
+            radio.ManualStation(freq);
+        }
+
         public void DisplayRadio()
         {
             Console.WriteLine(radio);
