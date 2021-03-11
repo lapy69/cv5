@@ -11,10 +11,10 @@ namespace cv5
         private int MaxPassengers;
         private int CurrentPassengers;
 
-        public Car(int cp, double cf, FuelType f)
+        public Car(int mp, int cp, double cf, double ftv, FuelType f)
         {
-            MaxPassengers = 5;
-            FuelTankVolume = 60;
+            MaxPassengers = mp;
+            FuelTankVolume = ftv;
             Fuel = f;
 
             if (cp <= MaxPassengers)

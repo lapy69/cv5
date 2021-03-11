@@ -11,10 +11,10 @@ namespace cv5
         private int MaxCargo;
         private double CurrentCargo;
         
-        public Truck(double cc, double cf, FuelType f)
+        public Truck(int mc, int cc, double cf, double ftv, FuelType f)
         {
-            MaxCargo = 1000;
-            FuelTankVolume = 200;
+            MaxCargo = mc;
+            FuelTankVolume = ftv;
             Fuel = f;
 
             if (cc <= MaxCargo)

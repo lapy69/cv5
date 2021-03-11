@@ -9,7 +9,7 @@ namespace cv5
     class Vehicle
     {
         public enum FuelType { Petrol_fuel, Oil_fuel };
-        protected int FuelTankVolume;
+        protected double FuelTankVolume;
         protected double CurrentFuel;
         protected FuelType Fuel;
         Radio radio = new Radio();

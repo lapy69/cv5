@@ -10,8 +10,8 @@ namespace cv5
     {
         static void Main(string[] args)
         {
-            Car car = new Car(4, 20, Vehicle.FuelType.Petrol_fuel);
-            Truck truck = new Truck(200, 130, Vehicle.FuelType.Oil_fuel);
+            Car car = new Car(5, 4, 20, 60, Vehicle.FuelType.Petrol_fuel);
+            Truck truck = new Truck(2000, 200, 130,200, Vehicle.FuelType.Oil_fuel);
 
             Console.WriteLine(car);
             Console.WriteLine(truck);
