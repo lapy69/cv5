@@ -15,6 +15,7 @@ namespace cv5
         {
             MaxPassengers = 5;
             FuelTankVolume = 60;
+
             if (cp <= MaxPassengers)
             {
                 CurrentPassengers = cp;
@@ -23,6 +24,7 @@ namespace cv5
             {
                 throw new Exception("Too many passengers");
             }
+
             if (cf < FuelTankVolume)
             {
                 CurrentFuel = cf;

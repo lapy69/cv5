@@ -15,6 +15,7 @@ namespace cv5
         {
             MaxCargo = 1000;
             FuelTankVolume = 200;
+
             if (cc <= MaxCargo)
             {
                 CurrentCargo = cc;
@@ -23,6 +24,7 @@ namespace cv5
             {
                 throw new Exception("Overweight");
             }    
+
             if(cf<FuelTankVolume)
             {
                 CurrentFuel = cf;
